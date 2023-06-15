@@ -66,41 +66,63 @@ h1{
     padding: 15px;
     min-height: 50%;
     width: 40%;
-}
-
-.reac{
-    padding:10px 0px 10px 15px;
-    background-color: rgba(236, 52, 52, 0.274);
-    color: orangered;
+    display: flex;
+    flex-direction: column;
     border-radius: 10px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
 }
 
-.img-card{
-    display: flex;
-
+.min-cards{
+    padding: 15px 0px 15px 10px;
 }
 
-
-.memo{
-    padding:10px 0px 10px 15px;
-    background-color: rgba(150, 141, 24, 0.479);
-    color: yellow;
+.red{
+    background-color: rgba(255, 0, 0, 0.295);
+    padding: 10px;
+    display: flex;
+    gap: 8px;
     border-radius: 10px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    
 }
 
-span{
-    color: rgba(24, 3, 73, 0.726);
-    font-weight: bold;
-    padding-right: 8px;
+.yellow{
+    background-color:yellow;
+    padding: 10px;
+    display: flex;
+    gap: 8px;
+    border-radius: 10px;
 }
+
+.green{
+    background-color: green;
+    padding: 10px;
+    display: flex;
+    gap: 8px;
+    border-radius: 10px;
+}
+
+.blue{
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    gap: 8px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(12, 12, 54);
+    color: azure;
+    letter-spacing:1.5px;
+}
+
+
+
+
 
 
 
