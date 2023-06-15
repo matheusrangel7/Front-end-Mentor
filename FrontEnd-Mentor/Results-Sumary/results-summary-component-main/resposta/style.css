@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family:'HankenGrotesk' ;
+    src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+:root{
+    --font01:'HankenGrotesk';
+}
+
+main{
+    background-color:gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: var(--font01);
+}
+
+.left-card{
+    background-color: rgb(65, 65, 172);
+    border-radius: 10px;
+    padding: 20px;
+    color: azure;
+    min-height: 50%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: 20px;
+
+}
+
+.circle{
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 180px;
+    width: 180px;
+    background-image: linear-gradient(to bottom, rgb(2, 2, 143),rgb(75, 75, 189));
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.144);
+}
+
+.num{
+    font-size: 10vh;
+    color:aliceblue;
+    font-weight: bold;   
+}
+
+.right-card{
+    background-color: azure;
+    padding: 15px;
+    min-height: 50%;
+    width: 40%;
+}
+
+.reac{
+    padding:10px 0px 10px 15px;
+    background-color: rgba(236, 52, 52, 0.274);
+    color: orangered;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.img-card{
+    display: flex;
+
+}
+
+
+.memo{
+    padding:10px 0px 10px 15px;
+    background-color: rgba(150, 141, 24, 0.479);
+    color: yellow;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+span{
+    color: rgba(24, 3, 73, 0.726);
+    font-weight: bold;
+    padding-right: 8px;
+}
+
+
+
