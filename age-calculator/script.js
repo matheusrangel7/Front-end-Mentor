@@ -33,6 +33,7 @@ function verificar() {
     mes: Number(document.getElementById("month").value),
     dia: Number(document.getElementById("day").value),
   };
+
   // Pega os elementos onde vai a resposta para o usuário.
   let day = document.getElementById("result-day");
   let month = document.getElementById("result-month");
@@ -61,6 +62,7 @@ function verificar() {
     nascimento.dia >= 1 &&
     nascimento.dia <= 31
   ) {
+    
     // Cálculo da data usando a função calcularIdade.
     let dataNascimento = `${nascimento.ano}-${nascimento.mes}-${nascimento.dia}`;
     let idade = calcularIdade(dataNascimento);
