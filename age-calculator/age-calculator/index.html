@@ -14,13 +14,13 @@
             <div class="data">
                 <div class="stdata">
                     <p id="title-day">Day</p>
-                    <input type="number" placeholder="DD" class="date" id="day">
+                    <input type="number" placeholder="DD" class="date" id="day" min="1" max="31">
                     <!--faz a mensagem de erro nos ID:Error-->
                     <p class="invalid" id="error-day"></p>
                 </div>
                 <div class="stdata">
                     <p id="title-month">Month</p>
-                    <input type="number" placeholder="MM" class="date" id="month">
+                    <input type="number" placeholder="MM" class="date" id="month" min="1" max="12">
                     <!--faz a mensagem de erro nos ID:Error-->
                     <p class="invalid" id="error-month"></p>
                 </div>
@@ -34,18 +34,19 @@
             </div>
             <div class="arrow">
                 <hr>
-                <spam class="color" id="btn-submmit"><img src="assets/images/icon-arrow.svg" alt=""></spam>
+                <spam class="color" id="btn-submmit"><img src="assets/images/icon-arrow.svg" alt="" onclick="verificar()"></spam>
             </div>
             <div class="result">
-                <span><span class="num-result" id="result-day">--</span>Years</span>
-
+                <span><span class="num-result" id="result-year">--</span>Years</span>
+                
                 <span><span class="num-result" id="result-month">--</span>Months</span>
 
-                <span><span class="num-result" id="result-year">--</span>Days</span>
+                <span><span class="num-result" id="result-day">--</span>Days</span>
+
             </div>
         </div>
 
     </main>
-    
+    <script src="script.js"></script>
 </body>
 </html>
