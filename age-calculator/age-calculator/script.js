@@ -62,7 +62,7 @@ function verificar() {
     nascimento.dia <= 31
   ) {
     // Cálculo da data usando a função calcularIdade
-    let dataNascimento = `${nascimento.ano}-${nascimento.mes - 1}-${
+    let dataNascimento = `${nascimento.ano}-${nascimento.mes + 1}-${
       nascimento.dia
     }`;
 
